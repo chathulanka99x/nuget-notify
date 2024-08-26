@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import json
+import os
 url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/main/list.json'
 response = requests.get(url)
 if response.status_code == 200:
@@ -38,6 +39,9 @@ for i in packages:
         updates.append({"name":i["name"], "from": i["version"],"to":latest})
   else:
       print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
+
+if os.path.exists('updates.txt'):
+    os.remove('updates.txt')
 
 if len(updates) > 0:
   with open('updates.txt', 'w') as f:
