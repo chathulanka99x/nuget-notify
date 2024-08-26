@@ -32,7 +32,7 @@ for i in packages:
           break
         pkgs_list.append(cell_value)
         index +=1
-      # pkgs_list = [row for row in pkgs_list if 'pre' not in row]
+      pkgs_list = [row for row in pkgs_list if 'pre' not in row]
       if len(pkgs_list) > 0:
         latest = pkgs_list[0]
         updates.append({"name":i["name"], "from": i["version"],"to":latest})
@@ -41,4 +41,4 @@ for i in packages:
 
 if len(updates) > 0:
   with open('updates.txt', 'w') as f:
-    f.write('\n'.join([f"{u['name']}: {u['from']} -> {u['to']}" for u in updates]))
+    f.write('\n'.join([f"{u['name']} :     {u['from']} -> {u['to']}" for u in updates]))
