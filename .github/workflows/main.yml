@@ -25,18 +25,6 @@ jobs:
     - name: Run Check
       run: python bin/check.py
 
-    - name: Check if updates file is non-empty
-      id: check_updates
-      run: |
-        if [ -s updates.txt ]; then
-          echo "Updates are available"
-          cat nuget.txt
-          echo "::set-output name=updates_available::true"
-        else
-          echo "No updates available"
-          echo "::set-output name=updates_available::false"
-        fi
-
     - name: Set issue title with current date and time
       id: set_title
       run: |
@@ -46,8 +34,8 @@ jobs:
         echo "issue_title=$title" >> $GITHUB_ENV
 
     - name: Create Issue
-      if: steps.check_updates.outputs.updates_available == 'true'
-      run: |
-        gh issue create --title "${{ env.issue_title }}" --body-file ./nuget.txt
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: peter-evans/create-issue-from-file@v5
+      with:
+        title: ${{ env.issue_title }}
+        content-filepath: ./nuget.txt
+        token: ${{ secrets.GITHUB_TOKEN }}
