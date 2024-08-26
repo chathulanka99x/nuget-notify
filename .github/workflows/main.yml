@@ -2,10 +2,14 @@ name: Check nuget
 
 on:
   workflow_dispatch:
+  schedule:
+  - cron: '30 3 * * *'
+
 
 jobs:
   main:
     runs-on: ubuntu-latest
+    timeout-minutes: 5 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
