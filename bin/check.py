@@ -33,6 +33,7 @@ for i in packages:
           break
         pkgs_list.append(cell_value)
         index +=1
+      print(pkgs_list)
       pkgs_list = [row for row in pkgs_list if 'pre' not in row]
       if len(pkgs_list) > 0:
         latest = pkgs_list[0]
