@@ -37,5 +37,5 @@ jobs:
       uses: peter-evans/create-issue-from-file@v5
       with:
         title: ${{ env.issue_title }}
-        content-filepath: ./updates.txt
+        content-filepath: ./nuget.txt
         token: ${{ secrets.GITHUB_TOKEN }}
