@@ -41,8 +41,10 @@ for i in packages:
       print(f'Failed to retrieve the webpage. Status code: {response.status_code}')
 
 if os.path.exists('updates.txt'):
+    print("delete existing")
     os.remove('updates.txt')
 
 if len(updates) > 0:
+  print("writing update")  
   with open('updates.txt', 'w') as f:
     f.write('\n'.join([f"{u['name']} :     {u['from']} -> {u['to']}" for u in updates]))
