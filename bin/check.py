@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/main/list.json'
+unwanted_substrings = ['pre', '-alpha', '-beta', '-rc']
 response = requests.get(url)
 if response.status_code == 200:
     packages = response.json()
@@ -34,7 +35,7 @@ for i in packages:
         pkgs_list.append(cell_value)
         index +=1
       print(pkgs_list)
-      pkgs_list = [row for row in pkgs_list if 'pre' not in row]
+      pkgs_list = [row for row in pkgs_list if not any(sub in row for sub in unwanted_substrings)]
       if len(pkgs_list) > 0:
         latest = pkgs_list[0]
         updates.append({"name":i["name"], "from": i["version"],"to":latest})
