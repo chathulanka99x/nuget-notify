@@ -6,5 +6,9 @@
   {
     "name":"Microsoft.Extensions.Hosting",
     "version":"8.0.0"
+  },
+  {
+    "name":"Microsoft.Extensions.Configuration.Json",
+    "version":"8.0.0"
   }
 ]
