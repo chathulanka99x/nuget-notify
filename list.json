@@ -14,5 +14,9 @@
   {
     "name":"Azure.Storage.Blobs",
     "version":"12.22.1"
+  },
+  {
+    "name":"Serilog.AspNetCore",
+    "version":"8.0.2"
   }
 ]
