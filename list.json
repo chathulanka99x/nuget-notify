@@ -1,15 +1,15 @@
 [
   {
     "name":"Microsoft.EntityFrameworkCore.SqlServer",
-    "version": "8.0.8"
+    "version": "8.0.10"
   },
   {
     "name":"Microsoft.Extensions.Hosting",
-    "version":"8.0.0"
+    "version":"8.0.1"
   },
   {
     "name":"Microsoft.Extensions.Configuration.Json",
-    "version":"8.0.0"
+    "version":"8.0.1"
   },
   {
     "name":"Azure.Storage.Blobs",
