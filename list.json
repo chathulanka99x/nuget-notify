@@ -13,10 +13,10 @@
   },
   {
     "name":"Azure.Storage.Blobs",
-    "version":"12.22.1"
+    "version":"12.22.2"
   },
   {
     "name":"Serilog.AspNetCore",
-    "version":"8.0.2"
+    "version":"8.0.3"
   }
 ]
