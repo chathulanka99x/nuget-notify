@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import os
 url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/main/list.json'
-unwanted_substrings = ['pre', '-alpha', '-beta', '-rc']
+unwanted_substrings = ['pre', '-alpha', '-beta', '-rc','-dev']
 response = requests.get(url)
 if response.status_code == 200:
     packages = response.json()
