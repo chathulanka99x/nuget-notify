@@ -17,7 +17,7 @@
   },
   {
     "name":"Serilog.AspNetCore",
-    "version":"8.0.3"
+    "version":"9.0.0"
   },
   {
     "name":"dotnet-outdated-tool",
