@@ -1,19 +1,19 @@
 [
   {
     "name":"Microsoft.EntityFrameworkCore.SqlServer",
-    "version": "9.0.2"
+    "version": "9.0.3"
   },
   {
     "name":"Microsoft.Extensions.Hosting",
-    "version":"9.0.2"
+    "version":"9.0.3"
   },
   {
     "name":"Microsoft.Extensions.Configuration.Json",
-    "version":"9.0.2"
+    "version":"9.0.3"
   },
   {
     "name":"Azure.Storage.Blobs",
-    "version":"12.23.0"
+    "version":"12.24.0"
   },
   {
     "name":"Serilog.AspNetCore",
