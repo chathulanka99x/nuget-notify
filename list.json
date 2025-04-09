@@ -5,7 +5,7 @@
   },
   {
     "name": "Azure.Messaging.ServiceBus",
-    "version": "7.18.4"
+    "version": "7.19.0"
   },
   {
     "name": "Azure.Storage.Blobs",
@@ -25,11 +25,11 @@
   },
   {
     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.AspNetCore.Authorization",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.AspNetCore.Http.Abstractions",
@@ -41,59 +41,59 @@
   },
   {
     "name": "Microsoft.EntityFrameworkCore",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.EntityFrameworkCore.Design",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.EntityFrameworkCore.InMemory",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.EntityFrameworkCore.Relational",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.EntityFrameworkCore.SqlServer",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Caching.Memory",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Configuration",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Configuration.Abstractions",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Configuration.Binder",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Configuration.Json",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.DependencyInjection",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.DependencyInjection.Abstractions",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Hosting",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.Extensions.Http.Polly",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "Microsoft.NET.Test.Sdk",
@@ -153,7 +153,7 @@
   },
   {
     "name": "System.Text.Json",
-    "version": "9.0.3"
+    "version": "9.0.4"
   },
   {
     "name": "System.Text.RegularExpressions",
