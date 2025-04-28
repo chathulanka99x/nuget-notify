@@ -137,7 +137,7 @@
   },
   {
     "name": "Serilog.Sinks.File",
-    "version": "6.0.0"
+    "version": "7.0.0"
   },
   {
     "name": "StackExchange.Redis",
