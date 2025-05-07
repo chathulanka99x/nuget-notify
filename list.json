@@ -141,7 +141,7 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "2.8.31"
+    "version": "2.8.37"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
