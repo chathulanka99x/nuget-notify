@@ -21,7 +21,7 @@
   },
   {
     "name": "Hangfire",
-    "version": "1.8.18"
+    "version": "1.8.19"
   },
   {
     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
@@ -145,7 +145,7 @@
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.9.0"
+    "version": "8.10.0"
   },
   {
     "name": "System.Net.Http",
