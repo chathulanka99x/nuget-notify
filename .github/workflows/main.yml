@@ -10,7 +10,7 @@ on:
 jobs:
   main:
     runs-on: ubuntu-latest
-    timeout-minutes: 5 
+    timeout-minutes: 2 
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v3
