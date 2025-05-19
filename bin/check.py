@@ -4,7 +4,7 @@ import json
 import os
 import concurrent.futures
 
-url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/main/list.json'
+url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/run/list.json'
 unwanted_substrings = ['pre', '-alpha', '-beta', '-rc','-dev']
 MAX_WORKERS = 5
 
