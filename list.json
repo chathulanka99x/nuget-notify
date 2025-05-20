@@ -97,7 +97,7 @@
   },
   {
     "name": "Microsoft.NET.Test.Sdk",
-    "version": "17.13.0"
+    "version": "17.14.0"
   },
   {
     "name": "Moq",
