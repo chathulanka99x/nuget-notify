@@ -13,11 +13,11 @@
   },
   {
     "name": "Elastic.CommonSchema.Serilog",
-    "version": "8.12.3"
+    "version": "8.18.0"
   },
   {
     "name": "Elastic.Serilog.Sinks",
-    "version": "8.12.3"
+    "version": "8.18.0"
   },
   {
     "name": "Hangfire",
@@ -145,7 +145,7 @@
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.10.0"
+    "version": "8.11.0"
   },
   {
     "name": "System.Net.Http",
