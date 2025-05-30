@@ -13,11 +13,11 @@
   },
   {
     "name": "Elastic.CommonSchema.Serilog",
-    "version": "8.18.0"
+    "version": "8.18.1"
   },
   {
     "name": "Elastic.Serilog.Sinks",
-    "version": "8.18.0"
+    "version": "8.18.1"
   },
   {
     "name": "Hangfire",
