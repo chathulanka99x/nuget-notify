@@ -12,6 +12,10 @@
     "version": "12.24.0"
   },
   {
+    "name": "Digipost.Api.Client",
+    "version": "14.8.0"
+  },
+  {
     "name": "Elastic.CommonSchema.Serilog",
     "version": "8.18.1"
   },
