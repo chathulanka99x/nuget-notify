@@ -133,7 +133,7 @@
   },
   {
     "name": "Serilog.Extensions.Logging",
-    "version": "9.0.1"
+    "version": "9.0.2"
   },
   {
     "name": "Serilog.Sinks.Elasticsearch",
