@@ -5,7 +5,7 @@ import os
 import concurrent.futures
 
 url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/run/list.json'
-unwanted_substrings = ['pre', '-alpha', '-beta', '-rc','-dev']
+unwanted_substrings = ['pre', 'alpha', 'beta', 'rc', 'dev', 'nightly', 'build', 'snapshot']
 MAX_WORKERS = 5
 
 response = requests.get(url)
