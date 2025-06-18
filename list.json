@@ -149,7 +149,7 @@
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.12.0"
+    "version": "8.12.1"
   },
   {
     "name": "System.Net.Http",
