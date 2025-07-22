@@ -145,11 +145,11 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "2.8.47"
+    "version": "2.8.58"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.12.1"
+    "version": "8.13.0"
   },
   {
     "name": "System.Net.Http",
