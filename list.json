@@ -1,7 +1,7 @@
 [
   {
     "name": "Azure.Identity",
-    "version": "1.14.2"
+    "version": "1.15.0"
   },
   {
     "name": "Azure.Messaging.ServiceBus",
@@ -17,15 +17,15 @@
   },
   {
     "name": "Elastic.CommonSchema.Serilog",
-    "version": "8.18.2"
+    "version": "9.0.0"
   },
   {
     "name": "Elastic.Serilog.Sinks",
-    "version": "8.18.2"
+    "version": "9.0.0"
   },
   {
     "name": "Hangfire",
-    "version": "1.8.20"
+    "version": "1.8.21"
   },
   {
     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
@@ -149,7 +149,7 @@
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.13.0"
+    "version": "8.13.1"
   },
   {
     "name": "System.Net.Http",
