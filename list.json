@@ -149,7 +149,7 @@
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.13.1"
+    "version": "8.14.0"
   },
   {
     "name": "System.Net.Http",
@@ -169,7 +169,7 @@
   },
   {
     "name": "xunit.runner.visualstudio",
-    "version": "3.1.3"
+    "version": "3.1.4"
   },
   {
     "name": "coverlet.collector",
