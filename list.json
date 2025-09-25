@@ -9,7 +9,7 @@
   },
   {
     "name": "Azure.Storage.Blobs",
-    "version": "12.25.0"
+    "version": "12.25.1"
   },
   {
     "name": "Digipost.Api.Client",
