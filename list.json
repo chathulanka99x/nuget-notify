@@ -145,7 +145,7 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "2.9.17"
+    "version": "2.9.25"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
@@ -169,7 +169,7 @@
   },
   {
     "name": "xunit.runner.visualstudio",
-    "version": "3.1.4"
+    "version": "3.1.5"
   },
   {
     "name": "coverlet.collector",
