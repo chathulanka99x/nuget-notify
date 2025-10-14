@@ -9,7 +9,7 @@
   },
   {
     "name": "Azure.Storage.Blobs",
-    "version": "12.25.1"
+    "version": "12.26.0"
   },
   {
     "name": "Digipost.Api.Client",
@@ -145,7 +145,7 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "2.9.25"
+    "version": "2.9.32"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
