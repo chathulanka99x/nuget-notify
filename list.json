@@ -1,7 +1,7 @@
 [
   {
     "name": "Azure.Identity",
-    "version": "1.17.0"
+    "version": "1.17.1"
   },
   {
     "name": "Azure.Messaging.ServiceBus",
@@ -145,11 +145,11 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "2.9.32"
+    "version": "2.10.1"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.14.0"
+    "version": "8.15.0"
   },
   {
     "name": "System.Net.Http",
