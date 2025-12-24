@@ -117,11 +117,11 @@
   },
   {
     "name": "Refit",
-    "version": "8.0.0"
+    "version": "9.0.2"
   },
   {
     "name": "Refit.HttpClientFactory",
-    "version": "8.0.0"
+    "version": "9.0.2"
   },
   {
     "name": "Serilog",
