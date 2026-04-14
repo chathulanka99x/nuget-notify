@@ -5,7 +5,6 @@ import os
 import concurrent.futures
 
 url = 'https://raw.githubusercontent.com/chathulanka99x/nuget-notify/run/list.json'
-unwanted_substrings = ['pre', 'alpha', 'beta', 'rc', 'dev', 'nightly', 'build', 'snapshot', '-g']
 MAX_WORKERS = 5
 
 response = requests.get(url)
@@ -17,6 +16,9 @@ else:
 
 def get_nuget_url(name):
     return 'https://www.nuget.org/packages/'+name+'/#versions-body-tab'
+
+def is_stable(version):
+    return '-' not in version 
 
 def check_package(package):
     name = package["name"]
@@ -44,8 +46,8 @@ def check_package(package):
             index += 1
         
         print(pkgs_list)
-        pkgs_list = [row for row in pkgs_list if not any(sub in row for sub in unwanted_substrings)]
-        
+        pkgs_list = [v for v in pkgs_list if is_stable(v)]
+
         if len(pkgs_list) > 0:
             latest = pkgs_list[0]
             return {"name": name, "from": target, "to": latest}
