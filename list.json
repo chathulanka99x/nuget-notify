@@ -9,11 +9,11 @@
   },
   {
     "name": "Azure.Storage.Blobs",
-    "version": "12.26.0"
+    "version": "12.27.0"
   },
   {
     "name": "Digipost.Api.Client",
-    "version": "14.8.1"
+    "version": "14.8.2"
   },
   {
     "name": "Elastic.CommonSchema.Serilog",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Hangfire",
-    "version": "1.8.22"
+    "version": "1.8.23"
   },
   {
     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Microsoft.NET.Test.Sdk",
-    "version": "18.0.1"
+    "version": "18.3.0"
   },
   {
     "name": "Moq",
@@ -124,8 +124,12 @@
     "version": "9.0.2"
   },
   {
+    "name": "SaxonCS",
+    "version": "12.9.0"
+  },
+  {
     "name": "Serilog",
-    "version": "4.3.0"
+    "version": "4.3.1"
   },
   {
     "name": "Serilog.AspNetCore",
@@ -145,7 +149,7 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "2.10.1"
+    "version": "2.11.8"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
@@ -173,7 +177,7 @@
   },
   {
     "name": "coverlet.collector",
-    "version": "6.0.4"
+    "version": "8.0.1"
   },
   {
     "name": "dotnet-outdated-tool",
