@@ -2,10 +2,10 @@ name: Check nuget
 
 on:
   workflow_dispatch:
-  # schedule:
+  schedule:
   # - cron: '30 3 * * *'
   # - cron: '30 7 * * *'
-
+  - cron: '30 3 * * 1'  # Every Monday at 03:30 UTC
 
 jobs:
   main:
