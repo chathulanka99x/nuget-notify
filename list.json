@@ -28,6 +28,10 @@
     "version": "1.8.23"
   },
   {
+    "name": "MailKit",
+    "version": "4.15.1"
+  },
+  {
     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
     "version": "9.0.11"
   },
