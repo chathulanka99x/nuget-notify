@@ -29,7 +29,7 @@
   },
   {
     "name": "MailKit",
-    "version": "4.15.1"
+    "version": "4.16.0"
   },
   {
     "name": "Microsoft.AspNetCore.Authentication.JwtBearer",
@@ -41,11 +41,7 @@
   },
   {
     "name": "Microsoft.AspNetCore.Http.Abstractions",
-    "version": "2.3.0"
-  },
-  {
-    "name": "Microsoft.AspNetCore.Mvc",
-    "version": "2.3.0"
+    "version": "2.3.9"
   },
   {
     "name": "Microsoft.EntityFrameworkCore",
