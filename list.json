@@ -101,7 +101,7 @@
   },
   {
     "name": "Microsoft.NET.Test.Sdk",
-    "version": "18.4.0"
+    "version": "18.5.1"
   },
   {
     "name": "Moq",
@@ -153,7 +153,7 @@
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
-    "version": "8.15.0"
+    "version": "8.18.0"
   },
   {
     "name": "System.Net.Http",
@@ -177,7 +177,7 @@
   },
   {
     "name": "coverlet.collector",
-    "version": "8.0.1"
+    "version": "10.0.0"
   },
   {
     "name": "dotnet-outdated-tool",
