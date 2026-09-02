@@ -9,7 +9,7 @@
   },
   {
     "name": "Azure.Storage.Blobs",
-    "version": "12.29.1"
+    "version": "12.29.2"
   },
   {
     "name": "Digipost.Api.Client",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Microsoft.AspNetCore.Http.Abstractions",
-    "version": "2.3.11"
+    "version": "2.3.12"
   },
   {
     "name": "Microsoft.EntityFrameworkCore",
@@ -149,7 +149,7 @@
   },
   {
     "name": "StackExchange.Redis",
-    "version": "3.1.13"
+    "version": "3.1.31"
   },
   {
     "name": "System.IdentityModel.Tokens.Jwt",
@@ -173,7 +173,7 @@
   },
   {
     "name": "xunit.runner.visualstudio",
-    "version": "3.1.5"
+    "version": "4.0.0"
   },
   {
     "name": "coverlet.collector",
