@@ -13,7 +13,7 @@
   },
   {
     "name": "Digipost.Api.Client",
-    "version": "14.8.4"
+    "version": "14.9.0"
   },
   {
     "name": "Elastic.CommonSchema.Serilog",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Hangfire",
-    "version": "1.8.24"
+    "version": "1.8.25"
   },
   {
     "name": "MailKit",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Microsoft.NET.Test.Sdk",
-    "version": "18.8.1"
+    "version": "18.9.0"
   },
   {
     "name": "Moq",
@@ -117,15 +117,15 @@
   },
   {
     "name": "Refit",
-    "version": "14.0.1"
+    "version": "15.2.0"
   },
   {
     "name": "Refit.HttpClientFactory",
-    "version": "14.0.1"
+    "version": "15.2.0"
   },
   {
     "name": "SaxonCS",
-    "version": "12.9.0"
+    "version": "12.10.0"
   },
   {
     "name": "Serilog",
